@@ -7,11 +7,13 @@
 `
 
 ### yeoman创建脚手架
-脚手架的package.json的name字段必须以`generator-xxx`开头
+脚手架的package.json的name字段必须以 **generator-xxx** 开头
 
 ### 脚手架使用
 
-`yo generator-xxx`
+`
+yo generator-xxx
+`
 
 ### 脚手架模板完整流程
 - mocha (单元测试)，如使用mocha
