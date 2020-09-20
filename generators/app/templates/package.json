@@ -1,16 +1,18 @@
 {
-    "name": "<%= title%>",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "mocha --require @babel/register",
-      "coverage": "nyc mocha",
-      "start": "webpack-dev-server",
-      "build": "webpack"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT"
-  }
-  
+  "name": "<%= title%>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register",
+    "coverage": "nyc mocha",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "publish": "node E:\\nvm\\node\\node_modules\\toy-publish-tool\\publish.js",
+    "lint": "eslint ./src",
+    "check": "phantom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
